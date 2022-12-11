@@ -1,0 +1,65 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Overpass";
+  background-color: hsl(216, 12%, 8%);
+}
+
+h4 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+#firstBox {
+  background-color: hsl(213, 19%, 18%);
+  width: 300px;
+  height: 300px;
+}
+#secondBox {
+  background-color: hsl(213, 19%, 18%);
+  width: 300px;
+  height: 300px;
+}
+
+#star {
+  height: 20px;
+  width: auto;
+}
+
+#starBackground {
+  color: hsl(216, 12%, 54%);
+}
+
+.number {
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(216, 12%, 23%);
+  color: hsl(217, 12%, 63%);
+  height: 40px;
+  width: 40px;
+}
+
+#submit {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  width: 200px;
+  height: 25px;
+  font-weight: 400;
+}
