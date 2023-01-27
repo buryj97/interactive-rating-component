@@ -11,11 +11,16 @@
 body {
   font-family: "Overpass";
   background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h4 {
   color: hsl(0, 0%, 100%);
   font-weight: 700;
+  font-size: 20px;
 }
 
 p {
@@ -25,22 +30,36 @@ p {
 
 #firstBox {
   background-color: hsl(213, 19%, 18%);
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+  border-radius: 8%;
+}
+
+#buttonDiv {
+  display: flex;
+  justify-content: space-around;
 }
 #secondBox {
   background-color: hsl(213, 19%, 18%);
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+  border-radius: 8%;
+  text-align: center;
 }
 
 #star {
-  height: 20px;
+  height: 12px;
   width: auto;
 }
 
 #starBackground {
-  color: hsl(216, 12%, 54%);
+  background-color: hsl(216, 12%, 23%);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .number {
@@ -48,8 +67,8 @@ p {
   border: none;
   background-color: hsl(216, 12%, 23%);
   color: hsl(217, 12%, 63%);
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
 }
 
 #submit {
@@ -60,6 +79,73 @@ p {
   -moz-border-radius: 30px;
   border-radius: 30px;
   width: 200px;
-  height: 25px;
+  height: 35px;
   font-weight: 400;
+}
+
+.boxInterior {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#submitDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.number:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+#submit:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.hidden {
+  display: none;
+}
+
+.activeButton {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+#thankYou {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+#endText {
+  color: hsl(217, 12%, 63%);
+}
+
+#rating {
+  color: hsl(25, 97%, 53%);
+  opacity: 75%;
+}
+
+#ratingDiv {
+  background-color: hsl(216, 12%, 25%);
+  border: none;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  width: 200px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-top: 30px;
+}
+
+#thankYouImg {
+  max-width: 30vh;
+  height: auto;
+  display: flex;
+  align-self: center;
 }
